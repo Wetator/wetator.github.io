@@ -385,6 +385,15 @@ Wetator searches for methodswith the same number of string parameters as strin
     </item>
     
     <item>
+      <title>Commands</title>
+      <link>https://wetator.github.io/documentation/reference/commands/</link>
+      <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>
+      
+      <guid>https://wetator.github.io/documentation/reference/commands/</guid>
+      <description>Wetator&#39;s commands are delivered in command sets. Each command set is described in its own XSD, which matches the generic test-case-1.0.0.xsd.All XSDs offered by Wetator are available online under http://www.wetator.org/xsd/.You also have the possibility to write your own command sets and therewith extend Wetator&#39;s capabilities according to your needs.</description>
+    </item>
+    
+    <item>
       <title>Configuration</title>
       <link>https://wetator.github.io/documentation/reference/configuration/</link>
       <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>
@@ -470,7 +479,7 @@ Wetator Beta Versions You can downlad the latest beta builds from CloudBees.</de
       <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>
       
       <guid>https://wetator.github.io/documentation/getting-started/</guid>
-      <description>For getting started please follow our installation guide and have a look at how to write your first Wetator test.Beyond running Wetator from command line you also have the possiblity to run Wetator via ant task.Furthermore Wetator comes withthe Wetator Test Editor (WTE) - an Eclipse plugin for convient editing of test filesand a Jenkins plugin to make Wetator part of your Continuous Integration.</description>
+      <description>For getting started please follow our installation guide and havea look at how to write your first Wetator test.Beyond running Wetator from command line you also have the possiblity to run Wetator via ant task.Furthermore Wetator comes withthe Wetator Test Editor (WTE) - an Eclipse plugin for convenient editing of test filesand a Jenkins plugin to make Wetator part of your Continuous Integration.</description>
     </item>
     
     <item>
@@ -507,7 +516,7 @@ one or multiple Test Files comprise one Test CaseCommandthe smallest unit of a
       <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>
       
       <guid>https://wetator.github.io/documentation/reference/</guid>
-      <description>Our reference contains details about how to use Wetator.Here you can get familiar with Wetator&#39;s language and configuration.Our small glossary collects generally known terms and defines them within the Wetator environment.</description>
+      <description>Our reference contains details about how to use Wetator.Here you can get familiar with Wetator&#39;s language andconfiguration.Our small glossary collects generally known terms and defines them withinthe Wetator environment.</description>
     </item>
     
     <item>

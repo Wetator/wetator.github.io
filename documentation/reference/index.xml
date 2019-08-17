@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Commands</title>
+      <link>https://wetator.github.io/documentation/reference/commands/</link>
+      <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>
+      
+      <guid>https://wetator.github.io/documentation/reference/commands/</guid>
+      <description>Wetator&#39;s commands are delivered in command sets. Each command set is described in its own XSD, which matches the generic test-case-1.0.0.xsd.All XSDs offered by Wetator are available online under http://www.wetator.org/xsd/.You also have the possibility to write your own command sets and therewith extend Wetator&#39;s capabilities according to your needs.</description>
+    </item>
+    
+    <item>
       <title>Configuration</title>
       <link>https://wetator.github.io/documentation/reference/configuration/</link>
       <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>

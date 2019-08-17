@@ -173,7 +173,7 @@ Your screen might look like this.</p>
 <img src="/images/docu-first-test-step1-openurl.png"   width="935" height="115" />
 
   <ul>
-    <li>for the command use <et:pages:pagelink id='30' target='blank'>Open Url</et:pages:pagelink> (if you like, you can choose from the list of supported commands)
+    <li>for the command use <a href="https://wetator.github.io/documentation/reference/commands/default-command-set/open-url/" target='_blank'>Open Url</a> (if you like, you can choose from the list of supported commands)
     <li>the url is the first (and only) parameter you have to provide
     <li>save the file
     <li>Switch to the command window and run wetator again (Type wetator -p first-steps\wetator.config &#91;Enter&#93;)
@@ -206,7 +206,9 @@ Your screen might look like this.</p>
 <h4 class="togglePanel">Step 2 - Check That We See the Right Content</h4>
 <div class="togglePanel_content">
   <p>It is good practice to prove to get the correct page as result of opening an url. Wetator has two commands for this kind of checks: 
-<et:pages:pagelink id='29' target='blank'>assert-title</et:pages:pagelink> and <et:pages:pagelink id='28' target='blank'>assert-content</et:pages:pagelink>.</p>
+<a href="https://wetator.github.io/documentation/reference/commands/default-command-set/assert-title/" target='_blank'>assert-title</a> and 
+<img src="/images/docu-first-test-step2-assert.png"   width="1006" height="298" />
+ <a href="https://wetator.github.io/documentation/reference/commands/default-command-set/assert-content/" target="_blank">assert-content</a>.</p>
   <ul>
     <li>please add the command 'Assert Title' with parameter 'WETATOR / Test Form'. (Title comparison is done case sensitive)
     <li>please add the command 'Assert Title' with parameter 'The form below is only for testing purpose'
@@ -224,8 +226,8 @@ Your screen might look like this.</p>
   <p>Now we start doing some real stuff; at first we fill the form.<br/>
   The used Wetator commands are:</p>
   <ul>
-    <li><et:pages:pagelink id='34' target='blank'>set</et:pages:pagelink> used for entry fields and file upload and
-    <li><et:pages:pagelink id='35' target='blank'>select</et:pages:pagelink> for list boxes, radio buttons and check boxes.
+    <li><a href="https://wetator.github.io/documentation/reference/commands/default-command-set/set/" target="_blank">set</a> used for entry fields and file upload and
+    <li><a href="https://wetator.github.io/documentation/reference/commands/default-command-set/select/" target="_blank">select</a> for list boxes, radio buttons and check boxes.
   </ul>
   <p>For filling the 'Project name' field we simply add the command</p>
   <p>The 'set' command requires two parameters, the first one points to the entry field and the second is the new value.</p>
@@ -255,11 +257,11 @@ Your screen might look like this.</p>
 <h4 class="togglePanel">Step 4 - Submit the Form and Check the Results</h4>
 <div class="togglePanel_content">
   <p>Finally we have to submit the form.<br/>
-  The command to use is simply <et:pages:pagelink id='32' target='blank'>click-on</et:pages:pagelink></p>
+  The command to use is simply <a href="https://wetator.github.io/documentation/reference/commands/default-command-set/click-on/" target="_blank">click-on</a></p>
   
 <img src="/images/docu-first-test-step4-submit.png"   width="935" height="47" />
 
-  <p>And for checking the result we can use again <et:pages:pagelink id='28' target='blank'>assert-content</et:pages:pagelink></p>
+  <p>And for checking the result we can use again <a href="https://wetator.github.io/documentation/reference/commands/default-command-set/assert-content/" target="_blank">assert-content</a></p>
   
 <img src="/images/docu-first-test-step4-submit-assert.png"   width="836" height="123" />
 
@@ -276,10 +278,10 @@ Your screen might look like this.</p>
   <p>You have written your first Wetator test.<br/>
   Now it is time to start writing tests for your application. To help you with this task we have some more documentation for you:</p>
   <ul>
-    <li><et:pages:pagelink id='16'>Philosophy</et:pages:pagelink> - a short overview about the idea we had in mind when building Wetator
-    <li><et:pages:pagelink id='18'>Command reference</et:pages:pagelink> - quick access to the detailed documentation of all supported commands
-    <li><et:pages:pagelink id='93'>FAQ</et:pages:pagelink> - maybe your question was asked before
-    <li><et:pages:pagelink id='38'>Support</et:pages:pagelink> - don't be shy; if you have any questions/problems/suggestions please contact us
+    <li><a href="https://wetator.github.io/documentation/philosophy/" >Philosophy</a> - a short overview about the idea we had in mind when building Wetator
+    <li><a href="https://wetator.github.io/documentation/reference/commands/" >Command reference</a> - quick access to the detailed documentation of all supported commands
+    <li><a href="https://wetator.github.io/documentation/faq/" >FAQ</a> - maybe your question was asked before
+    <li><a href="https://wetator.github.io/support/" >Support</a> - don't be shy; if you have any questions/problems/suggestions please contact us
   </ul>
 </div>
 
