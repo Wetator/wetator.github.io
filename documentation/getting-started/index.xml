@@ -35,7 +35,7 @@
       <pubDate>Sat, 10 Aug 2019 14:21:37 +0200</pubDate>
       
       <guid>https://wetator.github.io/documentation/getting-started/write-your-first-wetator-test/</guid>
-      <description>You have manged the installation so let us write our first real test case.
+      <description>You have managed the installation so let us write our first real test case.
 For this mini tutorial we use a simple web form from http://www.wetator.org/testform.
 Wetator supports three different file formats for storing of test definitions:
 wett - a simple text file with a wiki/markdown like notationwet - xml based test definitonxls - use Excel to define/edit your test casesFor this tutorial we will use Excel.</description>
